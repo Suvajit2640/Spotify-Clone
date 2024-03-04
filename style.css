@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.left {
+    width: 25vw;
+    height: auto;
+}
+
+.right {
+    width: 75vw;
+}
+
+
+
+.home ul li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 15px;
+    width: 25px;
+    padding-top: 15px;
+}
+.library{
+    min-width: 50vh;
+    position: absolute;
+}
+/* footer{
+
+} */
