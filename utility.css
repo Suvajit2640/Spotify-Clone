@@ -4,6 +4,7 @@
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     font-style: normal;
+    box-sizing: border-box;
 }
 
 body {
@@ -38,4 +39,17 @@ body {
 
 .m1 {
     margin: 10px;
+}
+.flex{
+    display: flex;
+
+}
+.p2{
+    padding: 5px;
+}
+.bold{
+    font-weight: bold;
+}
+.colorgrey{
+    color: rgba(168, 167, 167, 0.797);
 }
