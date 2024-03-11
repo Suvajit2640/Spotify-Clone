@@ -4,6 +4,8 @@
     /* align-items: center; */
 }
 
+/* left portion */
+
 .left {
     width: 30vw;
     height: auto;
@@ -98,6 +100,7 @@ footer {
 
 }
 
+/*--------------------------------------------------------- Right Portion------------------------------------- */
 .right {
     width: 70vw;
     border: 2px solid red;
