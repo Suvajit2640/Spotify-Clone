@@ -1,117 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spotify Clone</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="utility.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+  </head>
 
-<body>
+  <body>
     <div class="container bgblack">
-        <div class="left bm ">
-            <div class="home bggrey p1 m1 bm">
-                <ul>
-                    <img src="svgs/logo.svg" class="invert" alt="">
-                    <li class="colorgrey"><img src="svgs/home.svg" class="invert " alt="home" srcset="">Home</li>
-                    <li class="colorgrey"><img src="svgs/search.svg" class="invert" alt="">Search</li>
-                </ul>
-            </div>
-            <div class="library bggrey  bm p1">
-                <div class="both">
-                    <div class="playlist invert"><img src="svgs/playlist.svg" alt="Nothing"></div>
-                    <h3 class="colorgrey">Your library</h3>
-                </div>
-                <ul class="song_ul">
-                    <img src="svgs/music.svg" class="invert" alt="">
-                    <div class="songinfo ">
-                        
-                        <div class="songname">Chicago - Freedom Trail Studio.mp3 </div>
-                        <span>Artist Name- Arijit Singh</span>
-                        
-                    </div>
-                    <div class="play ">
-                        <span>Play Now</span>
-                        <img src="svgs/play.svg" class="invert" alt="">
-                    </div>
+      <div class="left bm">
+        <div class="home bggrey p1 m1 bm">
+          <ul>
+            <img src="svgs/logo.svg" class="invert" alt="" />
 
-                </ul>
-            </div>
-            <footer class="p1 m1">
-                <div class="text">cookies</div>
-
-                <button class="btnfooter bggrey"> <img src="https://cdn.hugeicons.com/icons/internet-stroke-rounded.svg"
-                        alt="internet" width="17" height="17" class="invert" />English</button>
-            </footer>
+            <li class="colorgrey">
+              <img
+                src="svgs/home.svg"
+                class="invert"
+                alt="home"
+                srcset=""
+              />Home
+            </li>
+            <li class="colorgrey">
+              <img src="svgs/search.svg" class="invert" alt="" />Search
+            </li>
+          </ul>
         </div>
-        <div class="right bm ">
-            <div class="header flex m1">
-                <div class="nav">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000"
-                        fill="none">
-                        <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="#fff"
-                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000"
-                        fill="none">
-                        <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="#fff"
-                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                </div>
-                <div class="buttons">
-
-                    <button class="signup btn2">Sign up</button>
-                    <button class="login btn2">Log in</button>
-                </div>
+        <div class="library bggrey bm p1">
+          <img src="svgs/close.svg" class="invert close" width="10px" alt="" />
+          <div class="both">
+            <div class="playlist invert">
+              <img src="svgs/playlist.svg" alt="Nothing" />
             </div>
-            <div class="Spotifyplaylist bggrey">
-                <h2 class="bold">Spotify Playlists</h2>
-                <div class="cards  p2">
-                    <div class="card">
-
-                        <img src="images/test image.jpg" alt="">
-                        <div class="catchyline bold ">Today's Top Hits</div>
-                        <div class="songdesk colorgrey bold">Tate MacRae is on top of the Hottest 50!</div>
-                    </div>
-
-                    <div class="card">
-
-                        <img src="images/test image.jpg" alt="">
-                        <div class="catchyline bold ">Today's Top Hits</div>
-                        <div class="songdesk colorgrey bold">Tate MacRae is on top of the Hottest 50!</div>
-                    </div>
-
-                    <div class="card">
-
-                        <img src="images/test image.jpg" alt="">
-                        <div class="catchyline bold ">Today's Top Hits</div>
-                        <div class="songdesk colorgrey bold">Tate MacRae is on top of the Hottest 50!</div>
-                    </div>
-
-                    <div class="card">
-
-                        <img src="images/test image.jpg" alt="">
-                        <div class="catchyline bold ">Today's Top Hits</div>
-                        <div class="songdesk colorgrey bold">Tate MacRae is on top of the Hottest 50!</div>
-                    </div>
-
-
-                </div>
-
-            </div>
-            <div class="playbar ">
-                <img src="svgs/previous.svg" alt="">
-                <img src="svgs/play.svg" alt="">
-                <img src="svgs/next.svg" alt="">
-
-            </div>
+            <h3 class="colorgrey">Your library</h3>
+          </div>
+          <ul class="song_ul"></ul>
         </div>
+        <footer class="p1 m1">
+          <div class="text">cookies</div>
+
+          <button class="btnfooter bggrey">
+            <img
+              src="https://cdn.hugeicons.com/icons/internet-stroke-rounded.svg"
+              alt="internet"
+              width="17"
+              height="17"
+              class="invert"
+            />English
+          </button>
+        </footer>
+      </div>
+      <div class="right bm">
+        <div class="header flex m1">
+          <div class="nav">
+            <img
+              class="invert hamburger"
+              style="cursor: pointer"
+              src="svgs/hamburger.svg"
+              alt=""
+            />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"
+              color="#000000"
+              fill="none"
+            >
+              <path
+                d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18"
+                stroke="#fff"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"
+              color="#000000"
+              fill="none"
+            >
+              <path
+                d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18"
+                stroke="#fff"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="buttons">
+            <button class="signup btn2">Sign up</button>
+            <button class="login btn2">Log in</button>
+          </div>
+        </div>
+        <div class="Spotifyplaylist bggrey">
+          <h2 class="bold">Spotify Playlists</h2>
+          <div class="cards p2">
+            <div class="card" data-folder="Easy_songs">
+              <img src="images/Day.jpg" alt="" />
+              <div class="catchyline bold">Day Song</div>
+              <div class="songdesk colorgrey bold">
+                This is on top of the Hottest 50!
+              </div>
+            </div>
+
+            <div class="card" data-folder="Tough_songs">
+              <img src="images/Night.jpg" alt="" />
+              <div class="catchyline bold">Night Songs</div>
+              <div class="songdesk colorgrey bold">
+                This is on top of the Finest 100!
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="playbar">
+          <div class="information">Song Name</div>
+          <div class="playbuttons">
+            <img id="previous" src="svgs/previous.svg" alt="" />
+            <img id="play" src="svgs/play.svg" alt="" />
+            <img id="next" src="svgs/next.svg" alt="" />
+          </div>
+          <div class="time-volume flex">
+            <div class="time">00:00/00:00</div>
+            <div class="volume flex">
+              <div class="volimg"><img src="svgs/volume.svg" alt="" /></div>
+              <div class="range">
+                <input type="range" name="volume" id="volrange" />
+              </div>
+            </div>
+          </div>
+          <div class="seekbar">
+            <div class="circle"></div>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
